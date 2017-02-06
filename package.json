@@ -1,6 +1,6 @@
 {
-  "name": "steem",
-  "version": "0.4.6",
+  "name": "steemlib",
+  "version": "0.4.6-1",
   "description": "Steem.js the JavaScript API for Steem blockchain",
   "main": "index.js",
   "scripts": {
@@ -14,7 +14,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/adcpm/steem.git"
+    "url": "git+https://github.com/esteemapp/steem-js.git"
   },
   "keywords": [
     "steem",
@@ -25,15 +25,15 @@
   "author": "Bonustrack <fabien@bonustrack.co> (https://github.com/bonustrack)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/steemit/steem-js/issues"
+    "url": "https://github.com/esteemapp/steem-js/issues"
   },
-  "homepage": "https://github.com/steemit/steem-js#readme",
+  "homepage": "https://github.com/esteemapp/steem-js#readme",
   "dependencies": {
     "bluebird": "^3.4.6",
     "debug": "^2.2.0",
     "detect-node": "^2.0.3",
     "lodash": "^4.16.4",
-    "steemauth": "0.0.19",
+    "steemauthlib": "0.0.19-1",
     "ws": "^1.1.1"
   },
   "devDependencies": {
